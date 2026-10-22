@@ -2,7 +2,60 @@
 
 /* === tokens === */
 :root {
-
+--rood: #c51f2a;
+--paars: #7b4fa3;
+--blauw:#1e5bd8;
+--groen:#3b7a2a;
+--roos: #e88bb4;
+--salie:#8fb89a;
+--grijs:  #6b6b6b;
+--oranje:  #d98c1a;
 }
 
 /* === your rules === */
+.albert{
+    background-color: var(--blauw);
+}
+.b{
+    background-color: var(--geel);
+}
+.c{
+    background-color: var(--blauw);
+}
+.d{
+    background-color: var(--groen);
+}
+.e{
+    background-color: var(--roos);
+}
+.f{
+    background-color: var(--lichtgroen);
+}
+.g{
+    background-color: var(--beige);
+}
+.h{
+    background-color: var(--oranje);
+}
+
+
+
+
+.citaten{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1rem;
+}
+.citaat{
+    border-left: 1rem solid red;
+    flex-basis: 18rem;
+    flex-grow: 1;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.citaat p{
+    flex-grow: 1;
+}
