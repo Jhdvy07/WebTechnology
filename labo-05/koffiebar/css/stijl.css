@@ -6,3 +6,17 @@
 }
 
 /* === your rules === */
+body{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: #2f241d;
+    color: #f4efe6;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    padding: 1rem;
+
+}
