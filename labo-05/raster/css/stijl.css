@@ -52,10 +52,6 @@ main{
     gap: 2vh;
     padding: 2vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-    "a . . b"
-    "c d e f"
-    "g . . h";  
 }
 
 main div{
